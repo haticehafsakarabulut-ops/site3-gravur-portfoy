@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gravür İş Portföyü</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-stone-50 text-stone-900 font-sans min-h-screen">
+
+  <nav class="bg-stone-800 text-white p-4 shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold tracking-wider">✂️ Gravür Atölyesi</h1>
+      <div class="space-x-4">
+        <a href="#galeri" class="hover:text-stone-300 transition">Galeri</a>
+        <a href="#hizmetler" class="hover:text-stone-300 transition">Hizmetler</a>
+        <a href="#iletisim" class="bg-stone-600 hover:bg-stone-700 px-4 py-2 rounded-lg transition">İletişim</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-stone-900 text-white py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">El İşi Gravür Sanatı</h2>
+    <p class="text-lg text-stone-300 max-w-2xl mx-auto">Özel tasarım gravür, fotoğraf ve video belgelerle donatılmış profesyonel portföy.</p>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-stone-800 mb-8 text-center">Eser Galeri</h3>
+      <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- JS ile doldurulacak -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Hizmetler -->
+  <section id="hizmetler" class="py-12 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-stone-800 mb-8 text-center">Hizmetlerim</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl border border-stone-200 text-center hover:shadow-md transition">
+          <div class="text-3xl mb-3">🖼️</div>
+          <h4 class="font-bold text-stone-800 mb-2">Gravür Tasarımı</h4>
+          <p class="text-sm text-stone-600">Metal, ahşap, cam üzerine özel gravür</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-stone-200 text-center hover:shadow-md transition">
+          <div class="text-3xl mb-3">📸</div>
+          <h4 class="font-bold text-stone-800 mb-2">Fotoğraf Belgeleri</h4>
+          <p class="text-sm text-stone-600">Eserlerin yüksek çözünürlüklü fotoğrafları</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-stone-200 text-center hover:shadow-md transition">
+          <div class="text-3xl mb-3">🎥</div>
+          <h4 class="font-bold text-stone-800 mb-2">Video İçerik</h4>
+          <p class="text-sm text-stone-600">İşlem aşamaları ve son kareler</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- İletişim -->
+  <section id="iletisim" class="py-12 text-center">
+    <div class="max-w-2xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-stone-800 mb-4">Sipariş Ver / İletişime Geçin</h3>
+      <p class="text-stone-600 mb-6">Gravür işiniz için bana ulaşabilirsiniz.</p>
+      <a href="mailto:info@ornek.com" class="bg-stone-800 hover:bg-stone-900 text-white px-8 py-3 rounded-full font-medium transition">E-posta Gönder</a>
+    </div>
+  </section>
+
+  <footer class="bg-stone-800 text-stone-300 text-center p-6 text-sm">
+    &copy; 2026 Gravür Atölyesi — GitHub Pages ile yayınlanıyor
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
